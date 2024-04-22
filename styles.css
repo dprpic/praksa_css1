@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Familjen+Grotesk:wght@600&display=swap');
+
+body {
+    box-sizing: border-box;
+    margin: auto 0;
+}
+
+.main_div {
+    width: 1300px;
+    margin: auto;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
+.logo h1 {
+    font-size: 25px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 390px;
+    margin: auto;
+    padding: 8px;
+    background-color: black;
+    border-radius: 25px;
+}
+
+.navbar a {
+    padding: 10px;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.navbar .box a{
+    color: lightgray;
+}
+
+.navbar .div_home {
+    background-color: white;
+    color: black;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+.navbar .div_projects a{
+    color: lightgray;
+}
+
+.navbar .div_projects small {
+    background-color: lightgray;
+    border-radius: 50%;
+    padding: 2px;
+    color: black;
+    font-weight: bold;
+}
+
+.banner {
+    font-family: 'Grotesk', sans-serif;
+    font-size: 110px;
+    margin-top: -130px;
+    position: relative;
+}
+
+.banner button {
+    position: absolute;
+    top: 340px;
+    right: 110px;
+    border: none;
+    padding: 20px;
+    border-radius: 25px;
+    font-size: 16px;
+}
+
+.lets_talk {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Grotesk', sans-serif;
+    margin-top: -130px;
+    font-size: 20px;
+    font-weight:500;
+    line-height: 28px;
+}
+
+.projects_text {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Grotesk', sans-serif;
+    font-size: 20px;
+    font-weight:500;
+    margin-top: 150px;
+    position: relative;
+}
+
+.projects_text .more {
+    position: absolute;
+    bottom: 5px;
+    right: 1px;
+}
+
+.images1 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.images_background {
+    display: flex;
+    justify-content: center;
+    width: 630px;
+    background: linear-gradient(#7A19F3, #A952F3);
+    border-radius: 25px;
+    margin-bottom: 10px;
+}
+
+.slike_opis1 {
+    font-family: 'Grotesk', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    position: relative;
+}
+
+.slike_opis1 .h2_drugi {
+    position: absolute;
+    right: 535px;
+    bottom: 23px;
+}
+.slike_opis1 .p_drugi {
+    position: absolute;
+    right: 523px;
+    bottom: -18px;
+}
+
+.images2 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 45px;
+}
+.slike_opis2 {
+    font-family: 'Grotesk', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    position: relative;
+}
+.slike_opis2 .h2_cetvrti {
+    position: absolute;
+    right: 560px;
+    bottom: 23px;
+}
+.slike_opis2 .p_cetvrti {
+    position: absolute;
+    right: 529px;
+    bottom: -18px;
+}
+
+.some_text .some_text_container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+.some_text h2 {
+    font-family: 'Grotesk', sans-serif;
+    font-weight: 600;
+    font-size: 48px;
+    margin-top: 150px;
+}
+
+.some_text .h3_1 {
+    font-family: 'Grotesk', sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    margin-top: 20px;
+    display: list-item; 
+    margin-left : 30px;
+}
+
+.some_text .p_1 {
+    font-family: 'Grotesk', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    margin-left : 30px;
+}
+
+.some_text .h3_2 {
+    font-family: 'Grotesk', sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    margin-top: 20px;
+    display: list-item; 
+    margin-left : -5px;
+}
+
+.some_text .p_2 {
+    font-family: 'Grotesk', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    margin-right: 40px;
+}
+
+.container {
+    background-color: black;
+    height: 249px;
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container p {
+    color: white;
+    font-family: 'Grotesk', sans-serif;
+    font-weight: 600;
+    font-size: 134px;
+}
+
+.main_div2 {
+    width: 1300px;
+    margin: auto;
+}
+.main_div2 .box_testimonials h3 {
+    font-family: 'Grotesk', sans-serif;
+    font-weight: 600;
+    font-size: 64px;
+}
+.main_div2 .box_testimonials p {
+    font-family: 'Grotesk', sans-serif;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 60px;
+}
+
+.main_div2 {
+    position: relative;
+}
+.main_div2 .box_testimonials2 {
+    position: absolute;
+    right: 150px;
+    bottom: 620px;
+}
+
+.lets_talk2 {
+    margin: auto;
+    width: 53%;
+    margin-top: 150px;
+}
+.lets_talk2 h2 {
+    font-family: 'Grotesk', sans-serif;
+    font-weight: 600;
+    font-size: 140px;
+    margin-bottom: 70px;
+}
+.lets_talk2 button {
+    width: 262px;
+    padding: 20px;
+    border-radius: 30px;
+    font-size: 16px;
+    background-color: black;
+    color: white;
+    margin-left: 220px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Grotesk', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    margin-top: 150px;
+}
+.footer2 {
+    display: flex;
+    gap:35px;
+}
+
+
+
